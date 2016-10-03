@@ -34,6 +34,10 @@ have better position estimate).
 **Solid green - with single long tone at time of arming:** Armed, GPS
 lock acquired. Ready to fly!
 
+**As of copter 3.4 the Green LED's indicicate a GPS  Fix only for the Flight Mode you are currently in.** 
+This may not be true for other flight modes which should be switched to to check the pre-arm state before arming. 
+In some cases the LED will revert to Blue to indicate insufficient GPS lock for that mode.
+
 **Double flashing yellow:** Failing pre-arm checks (system refuses to
 arm).
 
